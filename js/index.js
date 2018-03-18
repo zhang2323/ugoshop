@@ -18,6 +18,25 @@ $(function(){
 		$(this).css({'color':'#666'});
 	});
 
+	//logo点击事件
+	$('.left_logo').click(function(){
+		window.location.href="http://www.ugoshop.com";  
+	})
+
+	//搜索框获得焦点效果
+	$('#search').focus(function(){
+		if($(this).val() == '请输入商品名称或货号'){
+			$(this).val('');
+		}
+	});
+
+	//搜索框失去焦点效果
+	$('#search').blur(function(){
+		if($(this).val() == ''){
+			$(this).val('请输入商品名称或货号');
+		}
+	});
+
 	//shop购物车划过效果
 	$('.right_shop').mouseover(function(){
 		$(this).css({'border-bottom-color':'#fff'});

@@ -181,6 +181,7 @@ header{
 			float:left;
 			width:206px;
 			margin-right:82px;
+			cursor:pointer;
 		}
 		.center_input{
 			float:left;
@@ -775,18 +776,117 @@ header{
     			img{
     				display:block;
     			}
-    			.bar_show1{
-    				width: 260px;
-    				height: 230px;
-    				border:1px solid #eee;
-    				background: skyblue;
-    				position:absolute;
-    				right:36px;
-    				top:0;
-    			}
-    		}
-    	}
-    }
+    			.box_show1{
+    				display:none;
+    				.bar_show1{
+	    				width: 260px;
+	    				height: 230px;
+	    				border:1px solid #eee;
+	    				position:absolute;
+	    				right:36px;
+	    				top:0;
+	    				.show1_top{
+	    					width: 260px;
+	    					height: 120px;
+	    					background: #fff;
+	    					text-align:center;
+	    					padding-top:40px;
+	    					img{
+	    						display:inline-block;
+	    					}
+	    					span{
+	    						margin-top:5px;
+	    						display:block;
+	    						font-size:12px;
+	    						a{
+	    							margin:0 5px;
+	    							color:#f70800;
+	    						}
+	    					}
+	    				}
+	    				.show1_bottom{
+	    					width: 260px;
+	    					height: 50px;
+	    					background: #eee;
+	    					padding-top:20px;
+	    					.btn_left{
+	    						width: 70px;
+	    						line-height: 25px;
+	    						border:1px solid #666;
+	    						font-size:12px;
+	    						color:#000;
+	    						float:left;
+	    						text-align:center;
+	    						margin:0 10px 0 65px;
+	    						transition:all 0.5s;
+	    						&:hover{
+	    							border-color:#f70800;
+	    							color:#f70800;
+	    							border-radius:10px;
+	    						}
+	    					}
+	    					.btn_right{
+	    						width: 70px;
+	    						line-height: 25px;
+	    						border:1px solid #666;
+	    						font-size:12px;
+	    						color:#000;
+	    						float:left;
+	    						text-align:center;
+	    						transition:all 0.5s;
+	    						&:hover{
+	    							border-color:#f70800;
+	    							color:#f70800;
+	    							border-radius:10px;
+		    					}
+		    				}
+		    			}
+		    		}
+		    		i{
+						position:absolute;
+						top:10px;
+						left:-1px;
+						width: 0;
+						height: 0;
+						border-right:none;
+						border-left:7px solid #fff;
+						border-bottom:7px solid transparent;
+						border-top:7px solid transparent;
+	    			}
+	    		}
+	    		.box_show2{
+	    			width: 90px;
+	    			line-height: 30px;
+	    			background: #666;
+	    			font-size:12px;
+	    			color:#fff;
+	    			text-align:center;
+	    			border-radius:5px 0 0 5px;
+	    			position:absolute;
+	    			right:36px;
+	    			top:3px;
+	    			display:none;
+	    			i{
+						position:absolute;
+						top:9px;
+						left:90px;
+						width: 0;
+						height: 0;
+						border-right:none;
+						border-left:7px solid #666;
+						border-bottom:7px solid transparent;
+						border-top:7px solid transparent;
+	    			}
+	    		}
+	    		&:hover .box_show1{
+	    			display:block;
+	    		}
+	    		&:hover .box_show2{
+	    			display:block;
+	    		}
+			}
+		}
+	}
     .bar_bot{
     	width: 36px;
     	height: 108px;
@@ -797,9 +897,40 @@ header{
     	img{
     		display:block;
     	}
-    }
+    	ul{
+    		li{
+    			position:relative;
+    			.box_show3{
+	    			width: 90px;
+	    			line-height: 30px;
+	    			background: #666;
+	    			font-size:12px;
+	    			color:#fff;
+	    			text-align:center;
+	    			border-radius:5px 0 0 5px;
+	    			position:absolute;
+	    			right:36px;
+	    			top:3px;
+	    			display:none;
+	    			i{
+						position:absolute;
+						top:9px;
+						left:90px;
+						width: 0;
+						height: 0;
+						border-right:none;
+						border-left:7px solid #666;
+						border-bottom:7px solid transparent;
+						border-top:7px solid transparent;
+				    }
+    			}
+    			&:hover .box_show3{
+	    			display:block;
+	    		}
+    		}
+    	}
+	}
 }
-
 
 footer{
 	width: 100%;
@@ -911,18 +1042,13 @@ footer{
 		}
 	}
 }
-
-
-
+//轮播图部分
 #box{position:relative;width:698px;height:300px;margin:0 auto;}
 #box img{position:absolute;width:697px;border-bottom:1px solid #ddd;}
 #box:hover #leftArrow{display:block;}
 #box:hover #rightArrow{display:block;}
 #imgId1{opacity:1;}
 #imgId2,#imgId3,#imgId4{opacity:0;}
-// #box ul{position:absolute;right:20px;bottom:10px;height:40px;}
-// #box li{float:left;margin-left:10px;width:20px;height:20px;border-radius:50%;background-color:orange;cursor:pointer;}
+#box li{float:left;margin-left:10px;width:20px;height:20px;border-radius:50%;background-color:orange;cursor:pointer;}
 #leftArrow{position:absolute;left:1px;top:50%;color:#666;border:1px solid #eee;background:#fff;cursor:pointer;display:none}
-// #leftArrow:hover{background:red;opacity:.2;}
 #rightArrow{position:absolute;right:1px;top:50%;color:#666;border:1px solid #eee;background:#fff;cursor:pointer;display:none}
-// #rightArrow:hover{background:red;opacity:.2;}

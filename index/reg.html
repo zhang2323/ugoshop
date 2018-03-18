@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>登录</title>
-	<link rel="stylesheet" href="../css/login.css">
+	<title>注册</title>
+	<link rel="stylesheet" href="../css/reg.css">
 </head>
 <body>
 		<!-- top_nav ٩(๑❛ᴗ❛๑)۶z-->
@@ -51,35 +51,34 @@
 			<div class="bg_top">
 				<div class="bg_logo">
 					<a href="javascript:;"><img src="img/logo_1.jpg" alt=""></a>
-					<span><img src="img/logo_2.jpg" alt=""></span>
-					<p>如有问题请点击<a href="javascript:;">帮助中心</a>，或拨打客服热线：<strong>400-707-0707</strong></p>
+					<span><img src="img/logo_3.jpg" alt=""></span>
+					<p>已经注册,<a href="javascript:;">现在登录></a></p>
 				</div>
 			</div>
+			<div class="reg_logo">注册/TV激活</div>
 			<div class="bg_bottom">
-				<div class="bg_login">
-					<div class="form">
-						<span>手机号/邮箱/昵称</span>
-						<input class="input one" type="text" value="请输入您注册的手机号/邮箱/昵称">
-						<div class="show_input">请输入您注册的手机号/邮箱/昵称</div>
-
-						<span>密码</span>
-						<input class="input two" type="password">
-						<div class="show_password">请输入密码！</div>
-						<div class="check">
-							<input type="checkbox" class="checkbox">
-							<label>记住用户名</label>
-							<a href="javascript:;">忘记密码?</a>
-						</div>
-						<div class="login_btn">登录</div>
-					</div>
+				<div class="phone">
+					<span>手机号码：</span>
+					<input type="text" style='width:350px;height:37px'>
 				</div>
-				<div class="bg_r">
-					<div class="member">
-						<span>您还不是优品惠的会员?</span>
-						<a href="javascript:;">免费注册&gt;</a>
-						<span>电话订购过优品惠商品?</span>
-						<a href="javascript:;">快速激活&gt;</a>
-					</div>
+				<div class="regExp">
+					<span>验证码：</span>
+					<input type="text" style='width:125px;height:37px'>
+					<img src="http://www.ugoshop.com/api/checkcode.php?code_len=4&font_size=14&width=89&height=30&font_color=%23313131&background=%23e3e3e3&is=1&num=1&time=2ff64dc53d642227fda1d574aaa4a2c5&rand=852" alt="">
+					<a href="javascript:;">换一张</a>
+				</div>
+				<div class="password">
+					<span>设置密码：</span>
+					<input type="password" style='width:350px;height:37px'>
+				</div>
+				<div class="confirm">
+					<span>确认密码：</span>
+					<input type="password" style='width:350px;height:37px'>
+				</div>
+				<div class="SMS">
+					<span>短信验证码：</span>
+					<input type="text" style='width:125px;height:37px'>
+					<button>获取短信验证码</button>
 				</div>
 			</div>
 		</div>
@@ -215,4 +214,4 @@
 </body>
 </html>
 <script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
-<script src="../js/login.js"></script>
+<!-- <script src="../js/login.js"></script> -->

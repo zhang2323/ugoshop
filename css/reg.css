@@ -133,16 +133,16 @@ img {
 /* login_center ٩(๑❛ᴗ❛๑)۶z*/
 .login_center {
   width: 100%;
-  height: 540px;
+  height: 660px;
   background: #fff;
   overflow: hidden; }
   .login_center .center {
     width: 1000px;
-    height: 540px;
+    height: 660px;
     margin: 0 auto; }
     .login_center .center .bg_top {
       width: 1000px;
-      height: 112px; }
+      height: 114px; }
       .login_center .center .bg_top .bg_logo {
         width: 1000px;
         background: #fff;
@@ -154,131 +154,31 @@ img {
           float: right;
           color: #525252;
           padding-top: 70px;
-          font-size: 12px; }
-          .login_center .center .bg_top .bg_logo p strong {
-            color: #f70800;
-            font-weight: normal; }
+          font-size: 12px;
+          letter-spacing: 2px; }
+    .login_center .center .reg_logo {
+      width: 225px;
+      line-height: 42px;
+      background: #ff8400;
+      text-align: center;
+      color: #fff;
+      font-size: 12px; }
     .login_center .center .bg_bottom {
       width: 1000px;
-      height: 378px;
+      height: 400px;
       border: 2px solid #ff8400;
-      box-sizing: border-box; }
-      .login_center .center .bg_bottom .bg_login {
-        width: 561px;
-        height: 310px;
-        background: #fff;
+      padding-top: 45px; }
+      .login_center .center .bg_bottom span {
         float: left;
-        padding-left: 135px;
-        padding-top: 64px; }
-        .login_center .center .bg_bottom .bg_login .form {
-          width: 561px;
-          height: 310px;
-          position: relative; }
-          .login_center .center .bg_bottom .bg_login .form span {
-            display: block;
-            font-size: 12px;
-            padding: 7px 0;
-            line-height: 12px;
-            color: #666; }
-          .login_center .center .bg_bottom .bg_login .form .input {
-            display: block;
-            width: 350px;
-            height: 37px;
-            color: #ccc;
-            text-indent: 10px;
-            border: none;
-            border: 1px solid #a2a2a2;
-            outline: none;
-            transition: all 1s; }
-          .login_center .center .bg_bottom .bg_login .form .one {
-            background: url(../index/img/bg_t.jpg) 325px 8px no-repeat; }
-          .login_center .center .bg_bottom .bg_login .form .two {
-            background: url(../index/img/bg_b.jpg) 325px 8px no-repeat; }
-          .login_center .center .bg_bottom .bg_login .form .show_input {
-            width: 350px;
-            line-height: 24px;
-            color: red;
-            font-size: 12px;
-            position: absolute;
-            left: 0px;
-            top: 65px;
-            border: 1px solid red;
-            text-align: center;
-            background: #eee;
-            display: none; }
-          .login_center .center .bg_bottom .bg_login .form .show_password {
-            width: 350px;
-            line-height: 24px;
-            color: red;
-            font-size: 12px;
-            position: absolute;
-            left: 0px;
-            top: 130px;
-            border: 1px solid red;
-            text-align: center;
-            background: #eee;
-            display: none; }
-          .login_center .center .bg_bottom .bg_login .form .check {
-            width: 350px;
-            height: 31px;
-            line-height: 30px;
-            margin: 10px 0; }
-            .login_center .center .bg_bottom .bg_login .form .check input {
-              float: left;
-              margin-right: 8px; }
-            .login_center .center .bg_bottom .bg_login .form .check label {
-              float: left;
-              display: block;
-              line-height: 13px;
-              font-size: 12px;
-              color: #666; }
-            .login_center .center .bg_bottom .bg_login .form .check a {
-              float: right;
-              font-size: 12px;
-              line-height: 13px; }
-        .login_center .center .bg_bottom .bg_login .login_btn {
-          width: 350px;
-          line-height: 37px;
-          background: #f70800;
-          text-align: center;
-          color: #fff;
-          font-size: 14px;
-          transition: all .5s;
-          letter-spacing: 10px;
-          cursor: pointer; }
-          .login_center .center .bg_bottom .bg_login .login_btn:hover {
-            background: #00BBFF;
-            border-radius: 10px;
-            color: #789; }
-      .login_center .center .bg_bottom .bg_r {
-        width: 220px;
-        height: 320px;
-        background: #fff6ec;
-        float: right;
-        padding-left: 80px;
-        padding-top: 54px; }
-        .login_center .center .bg_bottom .bg_r .member {
-          width: 220px;
-          height: 320px; }
-          .login_center .center .bg_bottom .bg_r .member span {
-            display: block;
-            font-size: 14px;
-            color: #555; }
-          .login_center .center .bg_bottom .bg_r .member a {
-            display: block;
-            width: 142px;
-            line-height: 32px;
-            color: #ff6000;
-            border: 1px solid #ff6000;
-            text-align: center;
-            font-size: 14px;
-            margin-top: 10px;
-            margin-bottom: 40px;
-            transition: all .5s; }
-            .login_center .center .bg_bottom .bg_r .member a:hover {
-              border-radius: 10px;
-              border-color: #ff44aa;
-              color: #ff44aa; }
+        width: 200px;
+        line-height: 37px;
+        text-align: right;
+        margin-right: 10px;
+        color: #666;
+        font-size: 12px; }
+      .login_center .center .bg_bottom div {
+        width: 1000px;
+        height: 50px; }
 
 .log {
   position: absolute;
