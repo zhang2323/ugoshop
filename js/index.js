@@ -160,3 +160,15 @@ $(function(){
 	autoPlay();
 });
 
+//点击按钮返回顶部
+document.getElementById("Top").onclick = function(){
+	var myTimer = setInterval(function(){
+		var nowScrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+		if(nowScrollTop>0){
+			nowScrollTop -= 50;
+			document.body.scrollTop = document.documentElement.scrollTop =nowScrollTop;
+		}else{
+			clearInterval(myTimer);
+		}
+	},5);
+}

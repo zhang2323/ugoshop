@@ -610,7 +610,8 @@ header {
   height: 100%;
   right: 0;
   top: 0;
-  border-right: 4px solid #222; }
+  border-right: 4px solid #222;
+  cursor: pointer; }
   .sidebar .bar_top {
     width: 36px;
     height: 144px;
