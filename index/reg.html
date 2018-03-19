@@ -60,26 +60,54 @@
 				<div class="phone">
 					<span>手机号码：</span>
 					<input type="text" style='width:350px;height:37px'>
+					<img class="bg_t" src="img/bg_t.jpg" alt="">
+					<img class="bg_true" src="img/bg_true.jpg" alt="">
+					<div class="show_text">请输入常用手机号，避免忘记</div>
+					<div class="show_text2">请输入手机号!</div>
+					<div class="reg_text">手机格式不正确，请核对后再确认！</div>
 				</div>
 				<div class="regExp">
 					<span>验证码：</span>
 					<input type="text" style='width:125px;height:37px'>
-					<img src="http://www.ugoshop.com/api/checkcode.php?code_len=4&font_size=14&width=89&height=30&font_color=%23313131&background=%23e3e3e3&is=1&num=1&time=2ff64dc53d642227fda1d574aaa4a2c5&rand=852" alt="">
-					<a href="javascript:;">换一张</a>
+					<img id="img" src="http://www.ugoshop.com/api/checkcode.php?code_len=4&font_size=14&width=89&height=30&font_color=%23313131&background=%23e3e3e3&is=1&num=1&time=2ff64dc53d642227fda1d574aaa4a2c5&rand=852" alt="">
+					<a class="change_yzm" href="javascript:;">换一张</a>
 				</div>
 				<div class="password">
 					<span>设置密码：</span>
-					<input type="password" style='width:350px;height:37px'>
+					<input id="passWord" type="password" style='width:350px;height:37px'>
+					<img src="img/bg_b.jpg" alt="">
+					<img class="bg_true1" src="img/bg_true.jpg" alt="">
+					<div class="reg_password">6-20位字符，可使用字母、数字或符号的组合</div>
+					<div class="show_password">请输入密码!</div>
+					<div class="reg_word">密码长度应是6-20位字符，请重新输入！</div>
+
 				</div>
 				<div class="confirm">
 					<span>确认密码：</span>
 					<input type="password" style='width:350px;height:37px'>
+					<img src="img/bg_b.jpg" alt="">
+					<img class="bg_true2" src="img/bg_true.jpg" alt="">
+					<div class="show_password1">请再次输入密码!</div>
+					<div class="show_password2">请确认密码!</div>
+					<div class="reg_word1">两次输入的密码不一致，请重新输入！</div>
 				</div>
 				<div class="SMS">
 					<span>短信验证码：</span>
-					<input type="text" style='width:125px;height:37px'>
+					<input id="SMS" type="text" style='width:125px;height:37px'>
 					<button>获取短信验证码</button>
+					<div class="dentifyingCode">请先获取验证码!</div>
 				</div>
+				<div class="checkbox">
+					<span>.</span>
+					<input type="checkbox" checked>
+					<p>我已阅读并同意<a href="javascript:;">《优品惠用户服务承诺》</a></ps>
+				</div>
+				<div class="submit">
+					<span>.</span>
+					<input type="submit" id="btn">
+				</div>
+
+				<p class="bot_call">如有问题请点击<a href="javascript:;">帮助中心</a>，或拨打客服热线：<strong>400-707-0707</strong></p>
 			</div>
 		</div>
 	</div>
@@ -214,4 +242,5 @@
 </body>
 </html>
 <script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
-<!-- <script src="../js/login.js"></script> -->
+<script src="../js/reg.js"></script>
+<script src="../js/RegExp.js"></script>
