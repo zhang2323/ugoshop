@@ -406,218 +406,41 @@ header{
 		cursor:pointer;
 		width:100%;
 		height: 340px;
-		background:url(../index/img/large_banner.jpg)no-repeat;
+		background:url(../index/img/goods_banner.jpg)no-repeat;
 		background-position:-373px 0;
 	}
 }
 
-			/* bg_center ٩(๑❛ᴗ❛๑)۶z */
-
+/* bg_center ٩(๑❛ᴗ❛๑)۶z*/
 .bg_center{
-	width:100%;
-	padding-bottom:30px;
-	background: #f2f2f2;
+	padding-top:15px;
 	overflow:hidden;
-	.carousel_box{
-		width:1000px;
-		height: 400px;
+	width: 100%;
+	height: 370px;
+	background: #f2f2f2;
+	.center_photo{
+		width: 1000px;
+		height: 370px;
 		margin:0 auto;
-		padding-top:22px;
-		position:relative;
-		.choice{
-			z-index:3;
-			position:absolute;
-			left:20px;
-			top:20px;
-		}
-		.carousel{
-			width: 698px;
-			height: 400px;
-			background: #fff;
-			margin-right:12px;
-			float:left;
-			border:1px solid #ddd;
-			box-sizing:border-box;
-			position:relative;
-			.sBox{
-				width: 400px;
-				height: 94px;
-				position:absolute;
+		ul{
+			li{
 				float:left;
-				left:0;
-				bottom:0;
-				img{
-					width: 66px;
-					height: 66px;
-					padding:0 9px;
-					padding-top:13px;
-					border-top:2px solid transparent;
-					float:left;
-					&:hover{
-						border-color:red;
-					}
-				}
-			}
-		}
-		.sCarousel{
-			width: 290px;
-			height: 400px;
-			background: #fff;
-			float:left;
-			border:1px solid #ddd;
-			box-sizing:border-box;
-			.tv_top{
-				width: 273px;
-				height: 28px;
-				border-bottom:1px solid #eee;
-				background: #fff;
-				padding-top:12px;
-				padding-left:15px;
-			}
-			.chocolate_bot{
-				width: 260px;
-				height: 357px;
-				padding:0 15px;
-				.sell_top{
-					width: 260px;
-					height: 156px;
-					border-bottom:1px dotted #e2e0e0;
-					img{
-						margin-top:20px;
-						cursor:pointer;
-					}
-					.sell_text{
-						width: 125px;
-						height: 115px;
-						margin-top:20px;
-						float:right;
-						cursor:pointer;
-						p{
-							font-size:12px;
-						 	color:#444;
-						 	line-height: 16px;
-	   						height: 32px;
-	   						&:hover{
-								text-decoration:underline;
-	   						}
-						}
-						span{
-							display:block;
-							color:#f70800;
-							font-size:16px;
-							margin-top:10px;
-						}
-						.time{
-							margin-top:10px;
-						}
-						.btn{
-							width: 90px;
-							line-height: 23px;
-							background: #ff504a;
-							color:#fff;
-							font-size:14px;
-							text-align:center;
-							margin-top:4px;
-							transition:.5s;
-							&:hover{
-								background: pink;
-								border-radius:5px;
-								color:#000;
-							}
-						}
-					}
-				}
-				.sell_center{
-					width: 258px;
-					height: 105px;
-					padding: 15px 0 20px 0;
-					border-bottom:1px dotted #e2e0e0;
-					p{
-						font-size: 12px;
-					    color: #444;
-					    font-weight: bold;
-					    margin-bottom:10px;
-					    i{
-					    	font-style:normal;
-					    	color:#f70800;
-					    }
-					}
-					.carousel1{
-						width: 258px;
-						height: 80px;
-						overflow:hidden;
-						.carousel-list{
-							width: 1032px;
-							position:relative;
-							height: 80px;
-							li{
-								width: 258px;
-								float:left;
-								img{
-									width: 80px;
-									height: 80px;
-									margin-right:5px;
-								}
-							}
-						}
-						.direction-btn {
-							position: relative;
-						    width: 20px;
-						    height: 46px;
-						    cursor: pointer;
-						    // display:none;
-							a{
-								position: absolute;
-								top: -33px;
-								margin-top: -30px;
-								width: 20px;
-								line-height: 46px;
-								background: rgba(0, 0, 0, .3);
-								color: #fff;
-								font-size: 30px;
-								text-align: center;
-							}
-							.prev {
-								left: 0;
-							}
-							.next {
-								left: 238px;
-							}
-						}
-					}
-				}
-				.sell_bottom{
-					width: 258px;
-					height: 59px;
-					text-align:center;
-					li{
-						float:left;
-						margin:0 18px;
-						position:relative;
-						
-						img{
-							position:absolute;
-							left:13px;
-							top:13px;
-							transition:.5s;
-						}
-						a{
-							display:block;
-							color:#666;
-							font-size:12px;
-							margin-top:34px;
-						}
-						&:hover img{
-							top:10px;
-						}
-						&:hover a{
-							text-decoration:underline;
-						}
-					}
+				margin-right:12px;
+				transition:all .5s;
+				&:hover{
+					transform:translateX(-20px);
 				}
 			}
 		}
 	}
+}
+
+
+/* bg_bottom */
+.bg_bottom{
+	width: 100%;
+	background: #f2f2f2;
+	overflow:hidden;
 	.border_b{
 		width: 1000px;
 	    height: 40px;
@@ -627,33 +450,69 @@ header{
 	    img{
 	    	position:absolute;
 	    	top:50%;
-	    	left:38%;
+	    	left:40%;
 	    }
 	}
 	/* 各类精品促销 */
 	.full_tu{
 		width: 1000px;
-		height: 870px;
+		height: 276px;
 		margin:0 auto;
-		margin-top:33px;
+		margin-top:55px;
 		cursor:pointer;
+		background: #f2f2f2;
+		overflow:hidden;
 		.ani{
+			over-flow:hidden;
 			width: 490px;
-			height: 270px;
-			overflow:hidden;
-			margin-top:17px;
+			height: 276px;
 			float:left;
-			
+			background: #fff;
+			position:relative;
+			box-sizing:border-box;
+			border:1px solid transparent;
 			img{
-			width: 490px;
-			height: 270px;
-			transition:all 2s;
-			&:hover {
-				transform:scale(1.1);
-				overflow:hidden;
+				width: 486px;
+				height: 235px;
 			}
-		}
-		
+			.mask_text{
+				position:absolute;
+				left:0;
+				bottom:40px;
+				width: 483px;
+				height: 28px;
+				border-left: 3px solid #39c9da;
+				background: rgba(0,0,0, .5);
+				span{
+					color:#fff;
+					font-size:12px;
+					margin-left:10px;
+				}
+			}
+			.countDown{
+				width: 490px;
+				height: 42px;
+				line-height: 42px;
+				text-align:ceter;
+				span{
+					float:left;
+					margin-left:10px;
+					a{
+						color:#222;
+						font-size:14px;
+					}
+				}
+				i{
+					float:right;
+					font-style:normal;
+					font-size:12px;
+					color:#666;
+					margin-right:10px;
+				}
+			}
+			&:hover{
+				border-color:#f70800;
+			}
 		}
 		:nth-child(2n+1){
 			margin-right:20px;
@@ -692,10 +551,8 @@ header{
 			}
 			p{
 				color: #f70800;
-			    // margin-top: 5px;
 			    overflow: hidden;
 			    height: 16px;
-			    // line-height: 16px;
 			    margin-left:10px;
 			    margin-bottom:30px;
 			    font-size: 12px;
@@ -730,7 +587,12 @@ header{
 	}
 }
 
-			/* bg_footer ٩(๑❛ᴗ❛๑)۶z */
+
+
+
+
+
+/* bg_footer ٩(๑❛ᴗ❛๑)۶z */
 
 			/* 右侧悬浮 */
 
@@ -1024,13 +886,3 @@ footer{
 		}
 	}
 }
-//轮播图部分
-#box{position:relative;width:698px;height:300px;margin:0 auto;}
-#box img{position:absolute;width:697px;border-bottom:1px solid #ddd;}
-#box:hover #leftArrow{display:block;}
-#box:hover #rightArrow{display:block;}
-#imgId1{opacity:1;}
-#imgId2,#imgId3,#imgId4{opacity:0;}
-#box li{float:left;margin-left:10px;width:20px;height:20px;border-radius:50%;background-color:orange;cursor:pointer;}
-#leftArrow{position:absolute;left:1px;top:50%;color:#666;border:1px solid #eee;background:#fff;cursor:pointer;display:none}
-#rightArrow{position:absolute;right:1px;top:50%;color:#666;border:1px solid #eee;background:#fff;cursor:pointer;display:none}
