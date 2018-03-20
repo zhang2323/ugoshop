@@ -236,7 +236,7 @@ header {
 /* nav_list ٩(๑❛ᴗ❛๑)۶z*/
 .nav_list {
   width: 100%;
-  height: 380px;
+  height: 40px;
   background: #f70800; }
   .nav_list .list_z {
     width: 1000px;
@@ -335,155 +335,273 @@ header {
           display: block; }
         .nav_list .list_z .classify:hover .tabulation {
           display: block; }
-  .nav_list .large {
-    cursor: pointer;
-    width: 100%;
-    height: 340px;
-    background: url(../index/img/goods_banner.jpg) no-repeat;
-    background-position: -373px 0; }
 
-/* bg_center ٩(๑❛ᴗ❛๑)۶z*/
+/* bg_center ٩(๑❛ᴗ❛๑)۶z */
 .bg_center {
-  padding-top: 15px;
-  overflow: hidden;
   width: 100%;
-  height: 370px;
-  background: #f2f2f2; }
-  .bg_center .center_photo {
+  height: 10000px;
+  background: #eee; }
+  .bg_center .detail_center {
     width: 1000px;
-    height: 370px;
+    height: 10000px;
+    background: skyblue;
     margin: 0 auto; }
-    .bg_center .center_photo ul li {
-      float: left;
-      margin-right: 12px;
-      transition: all .5s; }
-      .bg_center .center_photo ul li:hover {
-        transform: translateX(-20px); }
-
-/* bg_bottom */
-.bg_bottom {
-  width: 100%;
-  background: #f2f2f2;
-  overflow: hidden;
-  padding-bottom: 30px;
-  /* 各类精品促销 */ }
-  .bg_bottom .border_b {
-    width: 1000px;
-    height: 40px;
-    border-bottom: 2px solid #333;
-    position: relative;
-    margin: 0 auto; }
-    .bg_bottom .border_b img {
-      position: absolute;
-      top: 50%;
-      left: 40%; }
-  .bg_bottom .full_tu {
-    width: 1000px;
-    height: 276px;
-    margin: 0 auto;
-    margin-top: 55px;
-    cursor: pointer;
-    background: #f2f2f2;
-    overflow: hidden; }
-    .bg_bottom .full_tu .ani {
-      over-flow: hidden;
-      width: 490px;
-      height: 276px;
-      float: left;
-      background: #fff;
-      position: relative;
-      box-sizing: border-box;
-      border: 1px solid transparent; }
-      .bg_bottom .full_tu .ani img {
-        width: 486px;
-        height: 235px; }
-      .bg_bottom .full_tu .ani .mask_text {
-        position: absolute;
-        left: 0;
-        bottom: 40px;
-        width: 483px;
-        height: 28px;
-        border-left: 3px solid #39c9da;
-        background: rgba(0, 0, 0, 0.5); }
-        .bg_bottom .full_tu .ani .mask_text span {
-          color: #fff;
-          font-size: 12px;
-          margin-left: 10px; }
-      .bg_bottom .full_tu .ani .countDown {
-        width: 490px;
-        height: 42px;
-        line-height: 42px;
-        text-align: ceter; }
-        .bg_bottom .full_tu .ani .countDown span {
-          float: left;
-          margin-left: 10px; }
-          .bg_bottom .full_tu .ani .countDown span a {
-            color: #222;
-            font-size: 14px; }
-        .bg_bottom .full_tu .ani .countDown i {
-          float: right;
-          font-style: normal;
+    .bg_center .detail_center .adress {
+      width: 1000px;
+      height: 17px;
+      font-size: 12px;
+      color: #222;
+      padding: 20px 0;
+      border-bottom: 1px solid #e8e8e8;
+      margin-bottom: 20px; }
+      .bg_center .detail_center .adress a {
+        color: #222;
+        margin-right: 5px; }
+      .bg_center .detail_center .adress span {
+        font-family: monospace;
+        margin: 0 3px; }
+    .bg_center .detail_center .introduce {
+      width: 1000px;
+      height: 510px;
+      background: #fff; }
+      .bg_center .detail_center .introduce .introduce_L {
+        width: 400px;
+        height: 510px;
+        margin-right: 30px;
+        float: left; }
+        .bg_center .detail_center .introduce .introduce_L .box_img {
+          width: 398px;
+          height: 398px;
+          border: 1px solid #ededed;
+          position: relative;
+          margin-bottom: 15px; }
+          .bg_center .detail_center .introduce .introduce_L .box_img img {
+            width: 398px;
+            height: 398px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none; }
+          .bg_center .detail_center .introduce .introduce_L .box_img i {
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            font-size: 30px; }
+          .bg_center .detail_center .introduce .introduce_L .box_img .zzc {
+            width: 90px;
+            height: 90px;
+            background: rgba(255, 255, 255, 0.5);
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            display: none; }
+          .bg_center .detail_center .introduce .introduce_L .box_img .activeImg {
+            display: block; }
+        .bg_center .detail_center .introduce .introduce_L .carousel_s {
+          width: 400px;
+          height: 95px;
+          text-align: center; }
+          .bg_center .detail_center .introduce .introduce_L .carousel_s ul {
+            width: 400px;
+            height: 64px; }
+            .bg_center .detail_center .introduce .introduce_L .carousel_s ul li {
+              float: left;
+              margin: 0 5px;
+              border: 1px solid transparent; }
+              .bg_center .detail_center .introduce .introduce_L .carousel_s ul li img {
+                width: 58px;
+                height: 58px; }
+              .bg_center .detail_center .introduce .introduce_L .carousel_s ul li:hover {
+                border-color: red; }
+            .bg_center .detail_center .introduce .introduce_L .carousel_s ul #firstLi {
+              margin-left: 30px; }
+            .bg_center .detail_center .introduce .introduce_L .carousel_s ul .activeLi {
+              border-color: red; }
+          .bg_center .detail_center .introduce .introduce_L .carousel_s .share {
+            width: 400px;
+            height: 20px; }
+            .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode {
+              height: 20px;
+              font-size: 12px;
+              color: #adadad;
+              line-height: 20px;
+              padding-top: 8px; }
+              .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode p {
+                float: left;
+                margin-left: 5px; }
+              .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai {
+                float: right;
+                margin-right: 10px; }
+                .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai span {
+                  position: relative;
+                  transition: all .5s; }
+                  .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai span i {
+                    color: red; }
+                  .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai span a {
+                    color: #222; }
+                  .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai span .show_follow {
+                    width: 168px;
+                    height: 27px;
+                    background: rgba(123, 99, 71, 0.4);
+                    text-align: center;
+                    line-height: 27px;
+                    border: 1px solid pink;
+                    border-radius: 5px;
+                    position: absolute;
+                    left: -72px;
+                    top: 23px;
+                    display: none; }
+                    .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai span .show_follow i {
+                      border-top: none;
+                      border-bottom: 7px solid pink;
+                      border-left: 7px solid transparent;
+                      border-right: 7px solid transparent;
+                      position: absolute;
+                      top: -7px;
+                      left: 72px; }
+                    .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai span .show_follow a {
+                      color: blue; }
+                  .bg_center .detail_center .introduce .introduce_L .carousel_s .share .goodsCode .box_ai span:hover .show_follow {
+                    display: block; }
+      .bg_center .detail_center .introduce .introduce_R {
+        width: 570px;
+        height: 510px;
+        float: right; }
+        .bg_center .detail_center .introduce .introduce_R .href {
           font-size: 12px;
           color: #666;
-          margin-right: 10px; }
-      .bg_bottom .full_tu .ani:hover {
-        border-color: #f70800; }
-    .bg_bottom .full_tu :nth-child(2n+1) {
-      margin-right: 20px; }
-  .bg_bottom .both_tu {
-    width: 1000px;
-    height: 100%;
-    margin: 0 auto;
-    margin-top: 33px; }
-    .bg_bottom .both_tu .productList {
-      width: 320px;
-      height: 450px;
-      background: #fff;
-      float: left;
-      margin-top: 15px;
-      cursor: pointer;
-      border: 1px solid transparent;
-      box-sizing: border-box; }
-      .bg_bottom .both_tu .productList img {
-        width: 298px;
-        height: 298px;
-        margin: 10px; }
-      .bg_bottom .both_tu .productList a {
-        display: block;
-        color: #222;
-        font-size: 16px;
-        margin-bottom: 20px;
-        height: 18px;
-        overflow: hidden; }
-        .bg_bottom .both_tu .productList a:hover {
-          text-decoration: underline; }
-      .bg_bottom .both_tu .productList p {
-        color: #f70800;
-        overflow: hidden;
-        height: 16px;
-        margin-left: 10px;
-        margin-bottom: 30px;
-        font-size: 12px;
-        padding: 0 10px; }
-      .bg_bottom .both_tu .productList .sp {
-        width: 298px;
-        line-height: 40px; }
-        .bg_bottom .both_tu .productList .sp .price {
-          float: left;
-          font-size: 26px;
+          margin-left: 12px; }
+        .bg_center .detail_center .introduce .introduce_R h3 {
+          margin-bottom: 10px;
           color: #222; }
-        .bg_bottom .both_tu .productList .sp .peo {
-          float: right;
+        .bg_center .detail_center .introduce .introduce_R .fashion_text {
+          margin-bottom: 10px;
           color: #666;
           font-size: 12px; }
-          .bg_bottom .both_tu .productList .sp .peo i {
-            color: #f70800;
-            font-style: normal; }
-      .bg_bottom .both_tu .productList:hover {
-        border-color: #f70800; }
-    .bg_bottom .both_tu :nth-child(3n+2) {
-      margin-left: 20px;
-      margin-right: 20px; }
+        .bg_center .detail_center .introduce .introduce_R span {
+          color: #666;
+          font-size: 12px; }
+        .bg_center .detail_center .introduce .introduce_R .price-box {
+          width: 550px;
+          height: 100px;
+          position: relative;
+          padding: 15px 10px 10px 10px;
+          margin-bottom: 15px;
+          border: 1px dotted #e8e8e8;
+          background-color: #fafafa; }
+          .bg_center .detail_center .introduce .introduce_R .price-box ul li {
+            margin-bottom: 10px; }
+            .bg_center .detail_center .introduce .introduce_R .price-box ul li .price {
+              color: red;
+              font-size: 24px; }
+            .bg_center .detail_center .introduce .introduce_R .price-box ul li span {
+              margin-right: 12px; }
+              .bg_center .detail_center .introduce .introduce_R .price-box ul li span b {
+                width: 40px;
+                height: 18px;
+                background: #ff504a;
+                border-radius: 2px;
+                color: #fff;
+                font-weight: 100;
+                margin-left: 20px;
+                margin-right: 4px;
+                display: inline-block;
+                text-align: center; }
+            .bg_center .detail_center .introduce .introduce_R .price-box ul li .exemption {
+              display: block;
+              margin-left: 23px;
+              margin-top: 10px; }
+        .bg_center .detail_center .introduce .introduce_R .center_span {
+          width: 570px;
+          height: 180px;
+          margin-bottom: 30px; }
+          .bg_center .detail_center .introduce .introduce_R .center_span ul li {
+            color: red;
+            font-size: 12px;
+            position: relative;
+            height: 45px;
+            line-height: 45px; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li span {
+              margin: 0 15px;
+              float: left; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li input {
+              width: 130px;
+              height: 25px;
+              font-size: 12px;
+              text-indent: 10px;
+              margin-right: 10px;
+              outline: none; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li i {
+              position: absolute;
+              left: 160px;
+              top: 0px;
+              font-size: 12px;
+              color: #666; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li img {
+              width: 36px;
+              height: 36px;
+              vertical-align: middle; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li .size {
+              width: 33px;
+              height: 28px;
+              text-align: center;
+              border: 1px solid #ccc;
+              line-height: 28px;
+              font-size: 12px;
+              margin-right: 10px;
+              float: left;
+              color: #000;
+              margin-top: 10px; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li .icon-GroupCopy {
+              position: absolute;
+              font-size: 10px;
+              left: 235px;
+              top: 0px; }
+          .bg_center .detail_center .introduce .introduce_R .center_span ul .num {
+            width: 570px;
+            height: 45px;
+            line-height: 45px;
+            float: left; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul .num a {
+              float: left;
+              width: 24px;
+              height: 24px;
+              line-height: 24px;
+              border: 1px solid #ccc;
+              margin-top: 10px;
+              text-align: center;
+              color: #000; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul .num input {
+              float: left;
+              width: 46px;
+              height: 22px;
+              text-indent: 20px;
+              margin: 10px 0 0 0; }
+        .bg_center .detail_center .introduce .introduce_R .button {
+          width: 570px;
+          height: 80px; }
+          .bg_center .detail_center .introduce .introduce_R .button button {
+            width: 190px;
+            height: 44px;
+            background: #ff504a;
+            color: #fff;
+            font-size: 14px;
+            line-height: 44px;
+            text-align: center;
+            outline: none;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-bottom: 10px; }
+          .bg_center .detail_center .introduce .introduce_R .button .icon_text {
+            font-size: 12px;
+            color: #777; }
+            .bg_center .detail_center .introduce .introduce_R .button .icon_text span {
+              color: #222;
+              font-size: 12px; }
+            .bg_center .detail_center .introduce .introduce_R .button .icon_text em {
+              font-style: normal;
+              color: red; }
 
 /* bg_footer ٩(๑❛ᴗ❛๑)۶z */
 /* 右侧悬浮 */

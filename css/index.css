@@ -261,12 +261,12 @@ header {
           color: #fff;
           font-size: 15px;
           font-weight: bold; }
-        .nav_list .list_z ul li img {
+        .nav_list .list_z ul li i {
           float: left;
-          width: 22px;
           height: 18px;
-          margin-top: 11px;
-          margin-left: 13px; }
+          margin-bottom: 11px;
+          margin-left: 13px;
+          color: #fff; }
         .nav_list .list_z ul li:hover {
           background: #e20700; }
       .nav_list .list_z ul .tv {
