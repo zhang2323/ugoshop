@@ -299,7 +299,8 @@ header {
         top: 40px;
         right: 0px;
         border: 1px solid #f70800;
-        display: none; }
+        display: none;
+        z-index: 5; }
         .nav_list .list_z .classify .tabulation .tab1 {
           width: 136px;
           height: 248px;
@@ -339,13 +340,16 @@ header {
 /* bg_center ٩(๑❛ᴗ❛๑)۶z */
 .bg_center {
   width: 100%;
-  height: 10000px;
-  background: #eee; }
+  overflow: hidden;
+  border-bottom: 1px solid #eee; }
   .bg_center .detail_center {
     width: 1000px;
-    height: 10000px;
-    background: skyblue;
-    margin: 0 auto; }
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    /* 放大镜部分 */
+    /* 商品介绍 */
+    /* 浮窗部分 */ }
     .bg_center .detail_center .adress {
       width: 1000px;
       height: 17px;
@@ -363,7 +367,9 @@ header {
     .bg_center .detail_center .introduce {
       width: 1000px;
       height: 510px;
-      background: #fff; }
+      background: #fff;
+      position: relative;
+      margin-bottom: 30px; }
       .bg_center .detail_center .introduce .introduce_L {
         width: 400px;
         height: 510px;
@@ -390,13 +396,30 @@ header {
           .bg_center .detail_center .introduce .introduce_L .box_img .zzc {
             width: 90px;
             height: 90px;
-            background: rgba(255, 255, 255, 0.5);
+            background: rgba(0, 0, 0, 0.5);
             position: absolute;
-            left: 40%;
-            top: 40%;
-            display: none; }
+            left: 0;
+            top: 0;
+            display: none;
+            cursor: move; }
           .bg_center .detail_center .introduce .introduce_L .box_img .activeImg {
             display: block; }
+        .bg_center .detail_center .introduce .introduce_L .hide_box {
+          width: 400px;
+          height: 400px;
+          border: 1px solid #ededed;
+          position: absolute;
+          left: 410px;
+          top: 0;
+          z-index: 2;
+          display: none;
+          overflow: hidden; }
+          .bg_center .detail_center .introduce .introduce_L .hide_box img {
+            width: 600px;
+            height: 600px;
+            position: absolute;
+            left: 0;
+            top: 0; }
         .bg_center .detail_center .introduce .introduce_L .carousel_s {
           width: 400px;
           height: 95px;
@@ -537,13 +560,17 @@ header {
               top: 0px;
               font-size: 12px;
               color: #666; }
-            .bg_center .detail_center .introduce .introduce_R .center_span ul li img {
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li .aImg {
+              float: left;
               width: 36px;
               height: 36px;
-              vertical-align: middle; }
+              border: 2px solid red; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li img {
+              width: 36px;
+              height: 36px; }
             .bg_center .detail_center .introduce .introduce_R .center_span ul li .size {
               width: 33px;
-              height: 28px;
+              height: 27px;
               text-align: center;
               border: 1px solid #ccc;
               line-height: 28px;
@@ -551,17 +578,31 @@ header {
               margin-right: 10px;
               float: left;
               color: #000;
-              margin-top: 10px; }
+              margin-top: 10px;
+              box-sizing: border-box;
+              cursor: pointer; }
+              .bg_center .detail_center .introduce .introduce_R .center_span ul li .size:hover {
+                border: 2px solid red;
+                line-height: 27px; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li #size_div {
+              border: 2px solid red;
+              line-height: 27px; }
+            .bg_center .detail_center .introduce .introduce_R .center_span ul li .size_form:hover {
+              text-decoration: underline;
+              cursor: pointer; }
             .bg_center .detail_center .introduce .introduce_R .center_span ul li .icon-GroupCopy {
               position: absolute;
               font-size: 10px;
               left: 235px;
-              top: 0px; }
+              top: 0px;
+              color: #cc0000;
+              left: 225px; }
           .bg_center .detail_center .introduce .introduce_R .center_span ul .num {
             width: 570px;
             height: 45px;
             line-height: 45px;
-            float: left; }
+            float: left;
+            position: relative; }
             .bg_center .detail_center .introduce .introduce_R .center_span ul .num a {
               float: left;
               width: 24px;
@@ -602,6 +643,205 @@ header {
             .bg_center .detail_center .introduce .introduce_R .button .icon_text em {
               font-style: normal;
               color: red; }
+    .bg_center .detail_center .img_box {
+      width: 1000px;
+      height: 80px;
+      margin: 0 auto 20px; }
+    .bg_center .detail_center .shop_int {
+      width: 1000px;
+      margin: 0 auto;
+      overflow: hidden; }
+      .bg_center .detail_center .shop_int .int_left {
+        width: 788px;
+        border: 1px solid #e8e8e8;
+        background: #fff;
+        overflow: hidden;
+        float: left; }
+        .bg_center .detail_center .shop_int .int_left .int_top {
+          width: 788px;
+          height: 43px;
+          float: left;
+          margin-bottom: 50px;
+          background: #f5f5f5; }
+          .bg_center .detail_center .shop_int .int_left .int_top a {
+            float: left;
+            width: 160px;
+            line-height: 43px;
+            border-right: 1px solid #e8e8e8;
+            text-align: center;
+            font-size: 14px;
+            color: #222;
+            background: #f5f5f5; }
+          .bg_center .detail_center .shop_int .int_left .int_top .activeA {
+            background: #fff;
+            border-bottom: none;
+            color: #F70800;
+            border-top: 2px solid #F70800; }
+        .bg_center .detail_center .shop_int .int_left .int_center {
+          width: 732px;
+          padding: 0 28px;
+          padding-bottom: 50px;
+          overflow: hidden; }
+          .bg_center .detail_center .shop_int .int_left .int_center img {
+            padding-bottom: 30px; }
+          .bg_center .detail_center .shop_int .int_left .int_center :last-child {
+            border-bottom: 1px solid #eee; }
+        .bg_center .detail_center .shop_int .int_left .int_bottom {
+          width: 788px;
+          height: 330px;
+          border-top: 1px solid #eee;
+          border-bottom: 1px solid #eee; }
+          .bg_center .detail_center .shop_int .int_left .int_bottom .look_shop {
+            width: 768px;
+            height: 34px;
+            background: #f5f5f5;
+            border-bottom: 1px solid #e8e8e8;
+            padding-left: 20px;
+            line-height: 34px; }
+            .bg_center .detail_center .shop_int .int_left .int_bottom .look_shop b {
+              font-size: 14px;
+              height: 10px;
+              padding-left: 10px;
+              border-left: 2px solid red; }
+          .bg_center .detail_center .shop_int .int_left .int_bottom ul {
+            overflow: hidden; }
+            .bg_center .detail_center .shop_int .int_left .int_bottom ul li {
+              float: left;
+              margin: 0 10px; }
+              .bg_center .detail_center .shop_int .int_left .int_bottom ul li a {
+                width: 175px;
+                height: 240px;
+                float: left;
+                font-size: 12px;
+                margin-top: 30px; }
+                .bg_center .detail_center .shop_int .int_left .int_bottom ul li a img {
+                  width: 170px;
+                  height: 170px; }
+                .bg_center .detail_center .shop_int .int_left .int_bottom ul li a span {
+                  color: #222; }
+                .bg_center .detail_center .shop_int .int_left .int_bottom ul li a p {
+                  font-size: 16px;
+                  color: #f70800;
+                  margin-top: 10px;
+                  margin-left: 5px; }
+                  .bg_center .detail_center .shop_int .int_left .int_bottom ul li a p i {
+                    margin-left: 10px;
+                    font-size: 14px;
+                    font-style: normal;
+                    color: #999; }
+                    .bg_center .detail_center .shop_int .int_left .int_bottom ul li a p i span {
+                      color: #999;
+                      font-size: 14px;
+                      text-decoration: line-through; }
+      .bg_center .detail_center .shop_int .int_right {
+        width: 188px;
+        border: 1px solid #e8e8e8;
+        border-top: none;
+        float: right; }
+        .bg_center .detail_center .shop_int .int_right .look {
+          width: 188px;
+          height: 40px;
+          line-height: 40px;
+          border-top: 2px solid #F70800;
+          border-bottom: 1px solid #e8e8e8; }
+          .bg_center .detail_center .shop_int .int_right .look h3 {
+            font-size: 14px;
+            margin-left: 20px; }
+        .bg_center .detail_center .shop_int .int_right ul li {
+          overflow: hidden;
+          padding: 20px 0; }
+          .bg_center .detail_center .shop_int .int_right ul li a {
+            width: 175px;
+            overflow: hidden;
+            float: left;
+            font-size: 12px;
+            margin-left: 10px;
+            text-align: center; }
+            .bg_center .detail_center .shop_int .int_right ul li a img {
+              width: 160px;
+              height: 150px; }
+            .bg_center .detail_center .shop_int .int_right ul li a span {
+              color: #222; }
+            .bg_center .detail_center .shop_int .int_right ul li a p {
+              font-size: 16px;
+              color: #f70800;
+              margin-top: 10px;
+              margin-left: 5px;
+              padding-bottom: 20px;
+              border-bottom: 1px solid #f6f6f6; }
+              .bg_center .detail_center .shop_int .int_right ul li a p i {
+                margin-left: 10px;
+                font-size: 14px;
+                font-style: normal;
+                color: #999; }
+                .bg_center .detail_center .shop_int .int_right ul li a p i span {
+                  color: #999;
+                  font-size: 14px;
+                  text-decoration: line-through; }
+    .bg_center .detail_center .fix_box {
+      width: 997px;
+      height: 45px;
+      margin: 0 auto;
+      background: #f5f5f5;
+      position: fixed;
+      top: 0;
+      left: 133px;
+      display: none; }
+      .bg_center .detail_center .fix_box .fix_l {
+        width: 480px;
+        height: 43px;
+        float: left; }
+        .bg_center .detail_center .fix_box .fix_l a {
+          float: left;
+          width: 159px;
+          line-height: 43px;
+          border-right: 1px solid #e8e8e8;
+          text-align: center;
+          font-size: 14px;
+          color: #222;
+          background: #f5f5f5; }
+        .bg_center .detail_center .fix_box .fix_l .activeA {
+          background: #fff;
+          border-bottom: none;
+          color: #F70800;
+          border-top: 2px solid #F70800; }
+      .bg_center .detail_center .fix_box .fix_r {
+        width: 510px;
+        height: 43px;
+        background: #f5f5f5;
+        float: right;
+        font-size: 12px; }
+        .bg_center .detail_center .fix_box .fix_r span {
+          margin: 0 5px;
+          letter-spacing: 3px; }
+        .bg_center .detail_center .fix_box .fix_r .col_text {
+          float: left;
+          width: 110px;
+          height: 43px;
+          line-height: 43px;
+          text-align: center; }
+        .bg_center .detail_center .fix_box .fix_r .btn_text {
+          float: right;
+          width: 308px;
+          height: 43px;
+          line-height: 43px;
+          text-align: center; }
+          .bg_center .detail_center .fix_box .fix_r .btn_text .money {
+            font-size: 16px;
+            color: #F70800;
+            letter-spacing: 0px; }
+          .bg_center .detail_center .fix_box .fix_r .btn_text button {
+            width: 190px;
+            height: 44px;
+            background: #ff504a;
+            color: #fff;
+            font-size: 14px;
+            line-height: 44px;
+            text-align: center;
+            outline: none;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer; }
 
 /* bg_footer ٩(๑❛ᴗ❛๑)۶z */
 /* 右侧悬浮 */
