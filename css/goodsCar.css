@@ -141,339 +141,105 @@ header {
       .nav_right ul li span:hover .show_code {
         display: block; }
 
-/* logo_form ٩(๑❛ᴗ❛๑)۶z*/
-.logo_form {
-  width: 100%;
-  height: 102px; }
-  .logo_form .center_form {
-    width: 1000px;
-    height: 82px;
-    margin: 0 auto;
-    padding: 20px 0 0;
-    position: relative; }
-    .logo_form .center_form .left_logo {
-      float: left;
-      width: 206px;
-      margin-right: 82px;
-      cursor: pointer; }
-    .logo_form .center_form .center_input {
-      float: left;
-      width: 420px;
-      height: 36px;
-      background: #eee;
-      margin-top: 6px;
-      background: #f70800; }
-      .logo_form .center_form .center_input input {
-        width: 340px;
-        height: 32px;
-        float: left;
-        text-indent: 10px;
-        border: 2px solid #f70800;
-        font-size: 12px;
-        color: #666;
-        outline: none; }
-      .logo_form .center_form .center_input span {
-        float: right;
-        color: #fff;
-        font-size: 14px;
-        margin-top: 8px;
-        margin-right: 25px;
-        cursor: pointer; }
-    .logo_form .center_form .right_shop {
-      width: 138px;
-      height: 30px;
-      float: right;
-      background: #fff;
-      border: 1px solid #ddd;
-      margin-top: 8px;
-      position: relative;
-      z-index: 10; }
-      .logo_form .center_form .right_shop .shop {
-        float: left;
-        margin-top: 5px;
-        margin-left: 10px; }
-      .logo_form .center_form .right_shop a {
-        float: left;
-        font-size: 12px;
-        color: #222;
-        margin-top: 7px;
-        margin-left: 5px; }
-      .logo_form .center_form .right_shop span {
-        width: 22px;
-        line-height: 14px;
-        background: #f70800;
-        color: #fff;
-        font-size: 12px;
-        text-align: center;
-        border-radius: 8px 8px 5px 5px;
-        position: absolute;
-        top: -4px;
-        right: 26px; }
-      .logo_form .center_form .right_shop .downArr {
-        margin-left: 20px;
-        position: absolute;
-        top: 13px;
-        right: 13px; }
-      .logo_form .center_form .right_shop .upArr {
-        position: absolute;
-        top: 13px;
-        right: 13px;
-        display: none; }
-    .logo_form .center_form .show_box {
-      position: absolute;
-      top: 59px;
-      right: 0;
-      border: 1px solid #ddd;
-      width: 288px;
-      line-height: 100px;
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-      background-color: #fff;
-      text-align: center;
-      font-size: 12px;
-      z-index: 2;
-      display: none; }
-
-/* nav_list ٩(๑❛ᴗ❛๑)۶z*/
-.nav_list {
-  width: 100%;
-  height: 40px;
-  background: #f70800; }
-  .nav_list .list_z {
-    width: 1000px;
-    height: 40px;
-    background: #f70800;
-    margin: 0 auto; }
-    .nav_list .list_z ul {
-      float: left;
-      width: 445px;
-      height: 40px; }
-      .nav_list .list_z ul .activeLi {
-        background: #bc0600; }
-      .nav_list .list_z ul li {
-        float: left;
-        width: 70px;
-        line-height: 40px; }
-        .nav_list .list_z ul li a {
-          display: block;
-          width: 70px;
-          text-align: center;
-          line-height: 40px;
-          color: #fff;
-          font-size: 15px;
-          font-weight: bold; }
-        .nav_list .list_z ul li i {
-          float: left;
-          height: 18px;
-          margin-bottom: 11px;
-          margin-left: 13px;
-          color: #fff; }
-        .nav_list .list_z ul li:hover {
-          background: #e20700; }
-      .nav_list .list_z ul .tv {
-        width: 95px;
-        height: 40px; }
-    .nav_list .list_z .classify {
-      float: right;
-      width: 134px;
-      line-height: 40px;
-      position: relative;
-      text-align: center; }
-      .nav_list .list_z .classify a {
-        color: #fff;
-        font-weight: bold;
-        font-size: 15px; }
-      .nav_list .list_z .classify .downArr {
-        margin-bottom: 2px;
-        position: absolute;
-        top: 18px;
-        right: 13px; }
-      .nav_list .list_z .classify .upArr {
-        position: absolute;
-        top: 18px;
-        right: 13px;
-        display: none; }
-      .nav_list .list_z .classify .tabulation {
-        width: 1000px;
-        height: 248px;
-        position: absolute;
-        top: 40px;
-        right: 0px;
-        border: 1px solid #f70800;
-        display: none;
-        z-index: 5; }
-        .nav_list .list_z .classify .tabulation .tab1 {
-          width: 136px;
-          height: 248px;
-          background: #fff;
-          float: left;
-          border-right: 1px solid #ededed;
-          padding: 0 15px; }
-          .nav_list .list_z .classify .tabulation .tab1 .tab_top {
-            width: 136px;
-            line-height: 55px;
-            border-bottom: 1px dotted #d9d9d9; }
-            .nav_list .list_z .classify .tabulation .tab1 .tab_top img {
-              vertical-align: middle; }
-            .nav_list .list_z .classify .tabulation .tab1 .tab_top span {
-              font-size: 14px;
-              color: #222;
-              font-weight: 900; }
-          .nav_list .list_z .classify .tabulation .tab1 a {
-            display: block;
-            color: #555;
-            font-size: 12px;
-            line-height: 24px; }
-            .nav_list .list_z .classify .tabulation .tab1 a:hover {
-              color: #f70800; }
-        .nav_list .list_z .classify .tabulation :last-child {
-          width: 135px;
-          border: none; }
-      .nav_list .list_z .classify:hover {
-        background: #e20700; }
-        .nav_list .list_z .classify:hover .downArr {
-          display: none; }
-        .nav_list .list_z .classify:hover .upArr {
-          display: block; }
-        .nav_list .list_z .classify:hover .tabulation {
-          display: block; }
-
 /* bg_center ٩(๑❛ᴗ❛๑)۶z */
 .bg_center {
   width: 100%;
-  overflow: hidden;
-  background: #efefef; }
-  .bg_center .subject {
+  overflow: hidden; }
+  .bg_center .mar_center {
     width: 1000px;
-    margin: 0 auto; }
-    .bg_center .subject .center_title {
+    margin: 0 auto;
+    overflow: hidden; }
+    .bg_center .mar_center .logo_top {
       width: 1000px;
-      height: 50px;
-      background: #fff;
-      line-height: 50px;
-      color: #333;
-      margin: 20px 0 5px 0; }
-      .bg_center .subject .center_title span {
-        font-size: 16px;
-        font-weight: 700;
-        margin: 0 20px; }
-      .bg_center .subject .center_title i {
-        font-style: normal;
-        font-size: 13px; }
-    .bg_center .subject .classify {
-      width: 1000px;
-      height: 80px;
-      margin-bottom: 10px; }
-      .bg_center .subject .classify span {
-        float: left;
-        width: 150px;
-        height: 81px;
-        line-height: 80px;
-        text-align: center;
-        font-size: 12px;
-        background: #f9f9f9; }
-      .bg_center .subject .classify .aList {
-        float: right;
-        width: 850px;
-        line-height: 80px;
-        background: #fff; }
-        .bg_center .subject .classify .aList a {
-          letter-spacing: 2px;
-          color: #333;
-          font-size: 12px;
-          padding: 0 10px;
-          margin-left: 10px;
-          border: 1px solid transparent; }
-        .bg_center .subject .classify .aList .act_A {
-          background: #edfeff;
-          border-color: #00aebd; }
-    .bg_center .subject .goods_list {
-      width: 1000px;
-      height: 46px;
-      line-height: 46px;
-      margin-bottom: 15px;
+      height: 100px;
       background: #fff; }
-      .bg_center .subject .goods_list ul li {
-        float: left;
-        width: 90px;
-        line-height: 45px;
-        text-align: center;
-        font-size: 12px;
-        color: #333;
-        text-align: center;
-        border-right: 1px solid #e8e8e8; }
-      .bg_center .subject .goods_list ul .r_li {
-        background: #ff484c;
-        color: #fff; }
-      .bg_center .subject .goods_list .check0 {
-        float: left;
-        margin-left: 20px;
-        font-size: 12px;
-        color: #333; }
-        .bg_center .subject .goods_list .check0 input {
-          vertical-align: middle; }
-      .bg_center .subject .goods_list .btn_right {
-        width: 230px;
-        height: 46px;
-        float: right;
-        line-height: 46px; }
-        .bg_center .subject .goods_list .btn_right p {
+      .bg_center .mar_center .logo_top img {
+        margin-top: 30px;
+        float: left; }
+      .bg_center .mar_center .logo_top .myShop {
+        float: right; }
+    .bg_center .mar_center .myCar {
+      padding-top: 10px;
+      font-size: 16px;
+      color: #222;
+      line-height: 21px;
+      padding-bottom: 10px; }
+    .bg_center .mar_center .shop_list {
+      width: 998px;
+      overflow: hidden;
+      border: 1px solid #eee; }
+      .bg_center .mar_center .shop_list ul {
+        width: 1000px;
+        height: 35px;
+        background: #f2f2f2;
+        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        line-height: 35px; }
+        .bg_center .mar_center .shop_list ul li {
           float: left;
+          width: 140px;
+          height: 35px;
           font-size: 12px;
-          color: #333;
-          margin-right: 10px; }
-          .bg_center .subject .goods_list .btn_right p span {
-            color: red; }
-        .bg_center .subject .goods_list .btn_right a {
-          width: 50px;
-          height: 20px;
-          float: right;
-          font-size: 14px;
-          color: #222;
-          border: 1px solid #ccc;
-          line-height: 20px;
-          text-align: center;
-          margin: 12px 10px 0 0; }
-        .bg_center .subject .goods_list .btn_right .p1 {
-          float: right; }
-    .bg_center .subject .pho_list {
-      width: 1000px;
-      overflow: hidden; }
-      .bg_center .subject .pho_list ul {
-        overflow: hidden; }
-        .bg_center .subject .pho_list ul li {
+          color: #666; }
+        .bg_center .mar_center .shop_list ul .first_li {
+          width: 148px;
+          height: 35px; }
+          .bg_center .mar_center .shop_list ul .first_li input {
+            margin: 0 15px;
+            vertical-align: middle; }
+        .bg_center .mar_center .shop_list ul .second_li {
+          width: 360px; }
+        .bg_center .mar_center .shop_list ul .last_li {
+          width: 70px; }
+      .bg_center .mar_center .shop_list .shopping_con {
+        width: 950px;
+        height: 80px;
+        line-height: 80px;
+        padding: 20px 0 20px 0;
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 30px; }
+        .bg_center .mar_center .shop_list .shopping_con input {
           float: left;
-          width: 308px;
-          height: 410px;
-          background: #fafafa;
-          margin: 11px;
-          margin-bottom: 20px;
-          transition: all .5s;
-          position: relative; }
-          .bg_center .subject .pho_list ul li img {
-            width: 306px;
-            height: 306px; }
-          .bg_center .subject .pho_list ul li a {
-            display: block;
-            font-size: 16px;
-            color: #222;
-            padding: 20px 0 0 20px;
-            border-top: 1px solid #d6d6d6; }
-          .bg_center .subject .pho_list ul li p {
-            margin-left: 20px;
-            margin-top: 20px;
-            font-size: 14px;
-            color: red; }
-            .bg_center .subject .pho_list ul li p span {
-              font-size: 22px; }
-          .bg_center .subject .pho_list ul li i {
-            font-size: 100px;
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 40%;
-            position: absolute;
-            left: 110px;
-            top: 80px; }
-          .bg_center .subject .pho_list ul li:hover {
-            box-shadow: 0 0 2px #333; }
+          margin: 40px 17px 0 17px; }
+        .bg_center .mar_center .shop_list .shopping_con img {
+          float: left;
+          display: inline-block;
+          width: 80px;
+          height: 80px; }
+        .bg_center .mar_center .shop_list .shopping_con a {
+          width: 360px;
+          float: left;
+          color: #666;
+          font-size: 12px;
+          line-height: 18px;
+          margin-left: 20px; }
+        .bg_center .mar_center .shop_list .shopping_con span {
+          float: left; }
+        .bg_center .mar_center .shop_list .shopping_con .num_a {
+          float: left;
+          line-height: 80px;
+          margin: 25px 0 0 80px; }
+          .bg_center .mar_center .shop_list .shopping_con .num_a a {
+            width: 20px;
+            line-height: 22px;
+            text-align: center;
+            border: 1px solid #999;
+            margin: 0; }
+          .bg_center .mar_center .shop_list .shopping_con .num_a input {
+            text-align: center;
+            line-height: 20px;
+            width: 30px;
+            height: 20px;
+            margin: 0; }
+        .bg_center .mar_center .shop_list .shopping_con .subtotal {
+          font-size: 16px;
+          font-weight: 900;
+          color: #666;
+          margin-left: 80px;
+          margin-right: 100px; }
+        .bg_center .mar_center .shop_list .shopping_con i {
+          font-size: 20px; }
 
 /* bg_footer ٩(๑❛ᴗ❛๑)۶z */
 /* 右侧悬浮 */

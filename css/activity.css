@@ -339,216 +339,103 @@ header {
     cursor: pointer;
     width: 100%;
     height: 340px;
-    background: url(../index/img/large_banner.jpg) no-repeat;
+    background: url(../index/img/goods_banner.jpg) no-repeat;
     background-position: -373px 0; }
 
-/* bg_center ٩(๑❛ᴗ❛๑)۶z */
+/* bg_center ٩(๑❛ᴗ❛๑)۶z*/
 .bg_center {
+  padding-top: 15px;
+  overflow: hidden;
   width: 100%;
-  padding-bottom: 30px;
+  height: 370px;
+  background: #f2f2f2; }
+  .bg_center .center_photo {
+    width: 1000px;
+    height: 370px;
+    margin: 0 auto; }
+    .bg_center .center_photo ul li {
+      float: left;
+      margin-right: 12px;
+      transition: all .5s; }
+      .bg_center .center_photo ul li:hover {
+        transform: translateX(-20px); }
+
+/* bg_bottom */
+.bg_bottom {
+  width: 100%;
   background: #f2f2f2;
   overflow: hidden;
+  padding-bottom: 30px;
   /* 各类精品促销 */ }
-  .bg_center .carousel_box {
-    width: 1000px;
-    height: 400px;
-    margin: 0 auto;
-    padding-top: 22px;
-    position: relative; }
-    .bg_center .carousel_box .choice {
-      z-index: 3;
-      position: absolute;
-      left: 20px;
-      top: 20px; }
-    .bg_center .carousel_box .carousel {
-      width: 698px;
-      height: 400px;
-      background: #fff;
-      margin-right: 12px;
-      float: left;
-      border: 1px solid #ddd;
-      box-sizing: border-box;
-      position: relative; }
-      .bg_center .carousel_box .carousel .sBox {
-        width: 400px;
-        height: 94px;
-        position: absolute;
-        float: left;
-        left: 0;
-        bottom: 0; }
-        .bg_center .carousel_box .carousel .sBox img {
-          width: 66px;
-          height: 66px;
-          padding: 0 9px;
-          padding-top: 13px;
-          border-top: 2px solid transparent;
-          float: left; }
-          .bg_center .carousel_box .carousel .sBox img:hover {
-            border-color: red; }
-    .bg_center .carousel_box .sCarousel {
-      width: 290px;
-      height: 400px;
-      background: #fff;
-      float: left;
-      border: 1px solid #ddd;
-      box-sizing: border-box; }
-      .bg_center .carousel_box .sCarousel .tv_top {
-        width: 273px;
-        height: 28px;
-        border-bottom: 1px solid #eee;
-        background: #fff;
-        padding-top: 12px;
-        padding-left: 15px; }
-      .bg_center .carousel_box .sCarousel .chocolate_bot {
-        width: 260px;
-        height: 357px;
-        padding: 0 15px; }
-        .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top {
-          width: 260px;
-          height: 156px;
-          border-bottom: 1px dotted #e2e0e0; }
-          .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top img {
-            margin-top: 20px;
-            cursor: pointer; }
-          .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top .sell_text {
-            width: 125px;
-            height: 115px;
-            margin-top: 20px;
-            float: right;
-            cursor: pointer; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top .sell_text p {
-              font-size: 12px;
-              color: #444;
-              line-height: 16px;
-              height: 32px; }
-              .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top .sell_text p:hover {
-                text-decoration: underline; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top .sell_text span {
-              display: block;
-              color: #f70800;
-              font-size: 16px;
-              margin-top: 10px; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top .sell_text .time {
-              margin-top: 10px; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top .sell_text .btn {
-              width: 90px;
-              line-height: 23px;
-              background: #ff504a;
-              color: #fff;
-              font-size: 14px;
-              text-align: center;
-              margin-top: 4px;
-              transition: .5s; }
-              .bg_center .carousel_box .sCarousel .chocolate_bot .sell_top .sell_text .btn:hover {
-                background: pink;
-                border-radius: 5px;
-                color: #000; }
-        .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center {
-          width: 258px;
-          height: 105px;
-          padding: 15px 0 20px 0;
-          border-bottom: 1px dotted #e2e0e0; }
-          .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center p {
-            font-size: 12px;
-            color: #444;
-            font-weight: bold;
-            margin-bottom: 10px; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center p i {
-              font-style: normal;
-              color: #f70800; }
-          .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 {
-            width: 258px;
-            height: 80px;
-            overflow: hidden; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 .carousel-list {
-              width: 1032px;
-              position: relative;
-              height: 80px; }
-              .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 .carousel-list li {
-                width: 258px;
-                float: left; }
-                .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 .carousel-list li img {
-                  width: 80px;
-                  height: 80px;
-                  margin-right: 5px; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 .direction-btn {
-              position: relative;
-              width: 20px;
-              height: 46px;
-              cursor: pointer; }
-              .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 .direction-btn a {
-                position: absolute;
-                top: -33px;
-                margin-top: -30px;
-                width: 20px;
-                line-height: 46px;
-                background: rgba(0, 0, 0, 0.3);
-                color: #fff;
-                font-size: 30px;
-                text-align: center; }
-              .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 .direction-btn .prev {
-                left: 0; }
-              .bg_center .carousel_box .sCarousel .chocolate_bot .sell_center .carousel1 .direction-btn .next {
-                left: 238px; }
-        .bg_center .carousel_box .sCarousel .chocolate_bot .sell_bottom {
-          width: 258px;
-          height: 59px;
-          text-align: center; }
-          .bg_center .carousel_box .sCarousel .chocolate_bot .sell_bottom li {
-            float: left;
-            margin: 0 18px;
-            position: relative; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_bottom li img {
-              position: absolute;
-              left: 13px;
-              top: 13px;
-              transition: .5s; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_bottom li a {
-              display: block;
-              color: #666;
-              font-size: 12px;
-              margin-top: 34px; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_bottom li:hover img {
-              top: 10px; }
-            .bg_center .carousel_box .sCarousel .chocolate_bot .sell_bottom li:hover a {
-              text-decoration: underline; }
-  .bg_center .border_b {
+  .bg_bottom .border_b {
     width: 1000px;
     height: 40px;
     border-bottom: 2px solid #333;
     position: relative;
     margin: 0 auto; }
-    .bg_center .border_b img {
+    .bg_bottom .border_b img {
       position: absolute;
       top: 50%;
-      left: 38%; }
-  .bg_center .full_tu {
+      left: 40%; }
+  .bg_bottom .full_tu {
     width: 1000px;
-    height: 870px;
+    height: 276px;
     margin: 0 auto;
-    margin-top: 33px;
-    cursor: pointer; }
-    .bg_center .full_tu .ani {
+    margin-top: 55px;
+    cursor: pointer;
+    background: #f2f2f2;
+    overflow: hidden; }
+    .bg_bottom .full_tu .ani {
+      over-flow: hidden;
       width: 490px;
-      height: 270px;
-      overflow: hidden;
-      margin-top: 17px;
-      float: left; }
-      .bg_center .full_tu .ani img {
+      height: 276px;
+      float: left;
+      background: #fff;
+      position: relative;
+      box-sizing: border-box;
+      border: 1px solid transparent; }
+      .bg_bottom .full_tu .ani img {
+        width: 486px;
+        height: 235px; }
+      .bg_bottom .full_tu .ani .mask_text {
+        position: absolute;
+        left: 0;
+        bottom: 40px;
+        width: 483px;
+        height: 28px;
+        border-left: 3px solid #39c9da;
+        background: rgba(0, 0, 0, 0.5); }
+        .bg_bottom .full_tu .ani .mask_text span {
+          color: #fff;
+          font-size: 12px;
+          margin-left: 10px; }
+      .bg_bottom .full_tu .ani .countDown {
         width: 490px;
-        height: 270px;
-        transition: all 2s; }
-        .bg_center .full_tu .ani img:hover {
-          transform: scale(1.1);
-          overflow: hidden; }
-    .bg_center .full_tu :nth-child(2n+1) {
+        height: 42px;
+        line-height: 42px;
+        text-align: ceter; }
+        .bg_bottom .full_tu .ani .countDown span {
+          float: left;
+          margin-left: 10px; }
+          .bg_bottom .full_tu .ani .countDown span a {
+            color: #222;
+            font-size: 14px; }
+        .bg_bottom .full_tu .ani .countDown i {
+          float: right;
+          font-style: normal;
+          font-size: 12px;
+          color: #666;
+          margin-right: 10px; }
+      .bg_bottom .full_tu .ani:hover {
+        border-color: #f70800; }
+    .bg_bottom .full_tu :nth-child(2n+1) {
       margin-right: 20px; }
-  .bg_center .both_tu {
+  .bg_bottom .both_tu {
     width: 1000px;
     height: 100%;
     margin: 0 auto;
     margin-top: 33px; }
-    .bg_center .both_tu .productList {
+    .bg_bottom .both_tu .productList {
       width: 320px;
       height: 450px;
       background: #fff;
@@ -558,20 +445,20 @@ header {
       border: 1px solid transparent;
       box-sizing: border-box;
       transition: .5s; }
-      .bg_center .both_tu .productList img {
+      .bg_bottom .both_tu .productList img {
         width: 298px;
         height: 298px;
         margin: 10px; }
-      .bg_center .both_tu .productList a {
+      .bg_bottom .both_tu .productList a {
         display: block;
         color: #222;
         font-size: 16px;
         margin-bottom: 20px;
         height: 18px;
         overflow: hidden; }
-        .bg_center .both_tu .productList a:hover {
+        .bg_bottom .both_tu .productList a:hover {
           text-decoration: underline; }
-      .bg_center .both_tu .productList p {
+      .bg_bottom .both_tu .productList p {
         color: #f70800;
         overflow: hidden;
         height: 16px;
@@ -579,24 +466,24 @@ header {
         margin-bottom: 30px;
         font-size: 12px;
         padding: 0 10px; }
-      .bg_center .both_tu .productList .sp {
+      .bg_bottom .both_tu .productList .sp {
         width: 298px;
         line-height: 40px; }
-        .bg_center .both_tu .productList .sp .price {
+        .bg_bottom .both_tu .productList .sp .price {
           float: left;
           font-size: 26px;
           color: #222; }
-        .bg_center .both_tu .productList .sp .peo {
+        .bg_bottom .both_tu .productList .sp .peo {
           float: right;
           color: #666;
           font-size: 12px; }
-          .bg_center .both_tu .productList .sp .peo i {
+          .bg_bottom .both_tu .productList .sp .peo i {
             color: #f70800;
             font-style: normal; }
-      .bg_center .both_tu .productList:hover {
+      .bg_bottom .both_tu .productList:hover {
         border-color: #f70800;
         box-shadow: 0 0 2px #333; }
-    .bg_center .both_tu :nth-child(3n+2) {
+    .bg_bottom .both_tu :nth-child(3n+2) {
       margin-left: 20px;
       margin-right: 20px; }
 
@@ -836,55 +723,3 @@ footer {
         footer .bg_footer .footer_bottom p img {
           vertical-align: top;
           margin-right: 5px; }
-
-#box {
-  position: relative;
-  width: 698px;
-  height: 300px;
-  margin: 0 auto; }
-
-#box img {
-  position: absolute;
-  width: 697px;
-  border-bottom: 1px solid #ddd; }
-
-#box:hover #leftArrow {
-  display: block; }
-
-#box:hover #rightArrow {
-  display: block; }
-
-#imgId1 {
-  opacity: 1; }
-
-#imgId2, #imgId3, #imgId4 {
-  opacity: 0; }
-
-#box li {
-  float: left;
-  margin-left: 10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: orange;
-  cursor: pointer; }
-
-#leftArrow {
-  position: absolute;
-  left: 1px;
-  top: 50%;
-  color: #666;
-  border: 1px solid #eee;
-  background: #fff;
-  cursor: pointer;
-  display: none; }
-
-#rightArrow {
-  position: absolute;
-  right: 1px;
-  top: 50%;
-  color: #666;
-  border: 1px solid #eee;
-  background: #fff;
-  cursor: pointer;
-  display: none; }

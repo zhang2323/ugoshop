@@ -165,421 +165,131 @@ header{
 		}
 	}
 } 
-			/* logo_form ٩(๑❛ᴗ❛๑)۶z*/
-.logo_form{
-	width:100%;
-	height:102px;
-	.center_form{
-		width:1000px;
-		height:82px;
-		margin:0 auto;
-		padding:20px 0 0;
-		position:relative;
-		.left_logo{
-			float:left;
-			width:206px;
-			margin-right:82px;
-			cursor:pointer;
-		}
-		.center_input{
-			float:left;
-			width:420px;
-			height: 36px;
-			background: #eee;
-			margin-top:6px;
-			background: #f70800;
-			input{
-				width:340px;
-				height:32px;
-				float:left;
-				text-indent:10px;
-				border:2px solid #f70800;
-				font-size:12px;
-				color:#666;
-				outline:none;
-			}
-			span{
-				float:right;
-				color:#fff;
-				font-size:14px;
-				margin-top:8px;
-				margin-right:25px;
-				cursor:pointer;
-			}
-		}
-		.right_shop{
-			width:138px;
-			height:30px;
-			float:right;
-			background: #fff;
-			border:1px solid #ddd;
-			margin-top:8px;
-			position:relative;
-			z-index:10;
-			.shop{
-				float:left;
-				margin-top:5px;
-				margin-left:10px;
-			}
-			a{
-				float:left;
-				font-size:12px;
-				color:#222;
-				margin-top:7px;
-				margin-left:5px;
-			}
-			span{
-				width:22px;
-				line-height: 14px;
-				background: #f70800;
-				color:#fff;
-				font-size:12px;
-				text-align:center;
-				border-radius:8px 8px 5px 5px;
-				position:absolute;
-				top:-4px;
-				right:26px;
-			}
-			.downArr{
-				margin-left:20px;
-				position:absolute;
-				top:13px;
-				right:13px;
-			}
-			.upArr{
-				position:absolute;
-				top:13px;
-				right:13px;
-				display:none;
-			}
-		}
-		.show_box{
-				position:absolute;
-				top:59px;
-				right:0;
-				border: 1px solid #ddd;
-			    width: 288px;
-			    line-height: 100px;
-			    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    			background-color: #fff;
-    			text-align:center;
-    			font-size:12px;
-    			z-index:2;
-    			display:none;
-		}
-	}
-}
-
-			/* nav_list ٩(๑❛ᴗ❛๑)۶z*/
-
-.nav_list{
-	width:100%;
-	height:40px;
-	background: #f70800;
-	.list_z{
-		width:1000px;
-		height:40px;
-		background: #f70800;
-		margin:0 auto;
-		ul{
-			float:left;
-			width:445px;
-			height:40px;
-			.activeLi{
-				background:#bc0600;
-			}
-			li{
-				float:left;
-				width:70px;
-				line-height: 40px;
-				a{
-					display:block;
-					width:70px;
-					text-align:center;
-					line-height:40px;
-					color:#fff;
-					font-size:15px;
-					font-weight:bold;
-				}
-				i{
-					float:left;
-					height: 18px;
-					margin-bottom:11px;
-					margin-left:13px;
-					color:#fff;
-				}
-				&:hover{
-					background: #e20700;
-				}
-			}
-			.tv{
-				width:95px;
-				height: 40px;
-			}
-		}
-		.classify{
-			float:right;
-			width:134px;
-			line-height: 40px;
-			position:relative;
-			text-align:center;
-			.list_icon{
-
-			}
-			a{
-				color:#fff;
-				font-weight:bold;
-				font-size:15px;
-			}
-			.downArr{
-				margin-bottom:2px;
-				position:absolute;
-				top:18px;
-				right:13px;
-			}
-			.upArr{
-				position:absolute;
-				top:18px;
-				right:13px;
-				display:none;
-			}
-			.tabulation{
-				width:1000px;
-				height: 248px;
-				position:absolute;
-				top:40px;
-				right:0px;
-				border:1px solid #f70800;
-				display:none;
-				z-index:5;
-				.tab1{
-					width: 136px;
-					height: 248px;
-					background: #fff;
-					float:left;
-					border-right:1px solid #ededed;
-					padding:0 15px;
-					.tab_top{
-						width: 136px;
-						line-height: 55px;
-						border-bottom:1px dotted #d9d9d9;
-						img{
-							vertical-align:middle;
-						}
-						span{
-							font-size:14px;
-							color:#222;
-							font-weight:900;
-						}
-					}
-					a{
-						display:block;
-						color: #555;
-    					font-size: 12px;
-    					line-height:24px;
-    					&:hover{
-    						color:#f70800;
-    					}
-					}
-				}
-				:last-child{
-					width:135px;
-					border:none;
-				}
-			}
-			&:hover{
-				background: #e20700;
-				.downArr{
-					display:none;
-				}
-				.upArr{
-					display:block;
-				}
-				.tabulation{
-					display:block;
-				}
-			}
-		}
-	}
-}
-
 
 /* bg_center ٩(๑❛ᴗ❛๑)۶z */
 
 .bg_center{
 	width: 100%;
+	// background: #eee;
 	overflow:hidden;
-	background: #efefef;
-	.subject{
+	.mar_center{
 		width: 1000px;
 		margin:0 auto;
-		.center_title{
+		overflow:hidden;
+		.logo_top{
 			width: 1000px;
-			height: 50px;
+			height: 100px;
 			background: #fff;
-			line-height:50px;
-			color:#333;
-			margin:20px 0 5px 0;
-			span{
-				font-size:16px;
-				font-weight:700;
-				margin:0 20px;
-			}
-			i{
-				font-style:normal;
-				font-size:13px;
-			}
-		}
-		.classify{
-			width: 1000px;
-			height: 80px;
-			margin-bottom:10px;
-			span{
+			img{
+				margin-top:30px;
 				float:left;
-				width: 150px;
-				height: 81px;
-				line-height:80px;
-				text-align:center;
-				font-size:12px;
-				background: #f9f9f9;
 			}
-			.aList{
+			.myShop{
 				float:right;
-				width: 850px;
-				line-height: 80px;
-				background: #fff;
-				a{
-					letter-spacing:2px;
-					color:#333;
-					font-size:12px;
-					padding:0 10px;
-					margin-left:10px;
-				    border: 1px solid transparent;
-				}
-				.act_A{
-					background: #edfeff;
-				    border-color:#00aebd;
-				}
 			}
 		}
-		.goods_list{
-			width: 1000px;
-			height: 46px;
-			line-height:46px;
-			margin-bottom:15px;
-			background: #fff;
-			ul{
-				li{
-					float:left;
-					width: 90px;
-					line-height: 45px;
-					text-align:center;
-					font-size:12px;
-					color:#333;
-					text-align:center;
-					border-right: 1px solid #e8e8e8;
-				}
-				.r_li{
-					background: #ff484c;
-					color:#fff;
-				}
-			}
-			.check0{
-				float:left;
-				margin-left:20px;
-				font-size:12px;
-				color:#333;
-				input{
-					vertical-align:middle;
-				}
-			}
-			.btn_right{
-				width: 230px;
-				height: 46px;
-				float:right;
-				line-height:46px;
-				p{
-					float:left;
-					font-size:12px;
-					color:#333;
-					margin-right:10px;
-					span{
-						color:red;
-					}
-				}
-				
-				a{
-					width: 50px;
-					height: 20px;
-					float:right;
-					font-size:14px;
-					color:#222;
-					border:1px solid #ccc;
-					line-height: 20px;
-					text-align:center;
-					margin: 12px 10px 0 0;
-				}
-				.p1{
-					float:right;
-				}
-			}
+		.myCar{
+			padding-top: 10px;
+		    font-size: 16px;
+		    color: #222;
+		    line-height: 21px;
+		    padding-bottom:10px;
 		}
-		.pho_list{
-			width: 1000px;
+		.shop_list{
+			width: 998px;
 			overflow:hidden;
+			border:1px solid #eee;
 			ul{
-				overflow:hidden;
+				width: 1000px;
+				height: 35px;
+				background: #f2f2f2;
+				border-top:1px solid #e8e8e8;
+				border-bottom:1px solid #e8e8e8;
+				line-height:35px;	
 				li{
 					float:left;
-					width: 308px;
-					height: 410px;
-					background: #fafafa;
-					margin:11px;
-					margin-bottom:20px;
-					transition:all .5s;
-					position:relative;
-					img{
-						width: 306px;
-						height: 306px;
+					width: 140px;
+					height: 35px;
+					font-size: 12px;
+    				color: #666;
+				}
+				.first_li{
+					width: 148px;
+					height: 35px;
+					input{
+						margin:0 15px;
+						vertical-align:middle;
 					}
+				}
+				.second_li{
+					width: 360px;
+				}
+				.last_li{
+					width: 70px;
+				}
+			}
+			.shopping_con{
+				width: 950px;
+				height: 80px;
+				line-height: 80px;
+				padding:20px 0 20px 0;
+				font-size:12px;
+				color:#666;
+				margin-bottom:30px;	
+				input{
+					float:left;
+					margin:40px 17px 0 17px;
+				}
+				img{
+					float:left;
+					display:inline-block;
+					width: 80px;
+					height: 80px;
+				}
+				a{
+					width: 360px;
+					float:left;
+					color:#666;
+					font-size:12px;
+					line-height:18px;
+					margin-left:20px;
+				}
+				span{
+					float:left;
+				}
+				.num_a{
+					float:left;
+					line-height:80px;
+					margin:25px 0 0 80px;
 					a{
-						display:block;
-						font-size:16px;
-						color:#222;
-						padding:20px 0 0 20px;
-						border-top: 1px solid #d6d6d6;
+						width: 20px;
+						line-height: 22px;
+						text-align:center;
+						border:1px solid #999; 
+						margin:0;
 					}
-					p{
-						margin-left:20px;
-						margin-top:20px;
-						font-size:14px;
-						color:red;
-						span{
-							font-size:22px;
-						}
+					input{
+						text-align:center;
+						line-height:20px;
+						width: 30px;
+						height: 20px;
+						margin:0;
 					}
-					i{
-						font-size:100px;
-						background: rgba(0,0,0, .3);
-						border-radius:40%;
-						position:absolute;
-						left:110px;
-						top:80px;
-					}
-					&:hover{
-						// transform: translateZ(500px);
-						box-shadow: 0 0 2px #333;
-					}
+				}
+				.subtotal{
+					font-size:16px;
+					font-weight:900;
+					color:#666;
+					margin-left:80px;
+					margin-right:100px;
+				}
+				i{
+					font-size:20px;
 				}
 			}
 		}
-	}	
+	}
 }
-
-
-
-
-
 
 
 
